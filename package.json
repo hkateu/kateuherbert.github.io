@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://hkateu.github.io/kateuherbert/react-gh-pages",
+  "homepage": "https://hkateu.github.io/kateuherbert",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
