@@ -1,0 +1,38 @@
+[00:13:02.163] Global cache location '/home/hkateu/.cache/typescript/4.8', safe file path '/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/typingSafeList.json', types map path /home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/typesMap.json
+[00:13:02.164] Processing cache location '/home/hkateu/.cache/typescript/4.8'
+[00:13:02.164] Trying to find '/home/hkateu/.cache/typescript/4.8/package.json'...
+[00:13:02.277] Loaded content of '/home/hkateu/.cache/typescript/4.8/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.609"}}
+[00:13:02.277] Loaded content of '/home/hkateu/.cache/typescript/4.8/package-lock.json'
+[00:13:02.277] Finished processing cache location '/home/hkateu/.cache/typescript/4.8'
+[00:13:02.278] Process id: 14939
+[00:13:02.279] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[00:13:02.279] validateDefaultNpmLocation: false
+[00:13:02.280] Npm config file: /home/hkateu/.cache/typescript/4.8/package.json
+[00:13:02.280] Updating types-registry npm package...
+[00:13:02.281] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[00:13:06.084]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 3s
+
+found 0 vulnerabilities
+
+[00:13:06.084] Updated types-registry npm package
+[00:13:23.890] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es5.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2016.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.dom.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.scripthost.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/hkateu/ScalaWork/portfolio/portfolio/src/feature/header.js","/home/hkateu/ScalaWork/portfolio/portfolio/src/App.js","/home/hkateu/ScalaWork/portfolio/portfolio/src/reportWebVitals.js","/home/hkateu/ScalaWork/portfolio/portfolio/src/index.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/hkateu/ScalaWork/portfolio/portfolio/src","kind":"discover"}
+[00:13:23.910] Loaded safelist from types map file '/home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/typesMap.json'
+[00:13:23.910] Explicitly included types: []
+[00:13:23.911] Inferred typings from unresolved imports: []
+[00:13:23.911] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hkateu/ScalaWork/portfolio/portfolio/src/feature/bower_components","/home/hkateu/ScalaWork/portfolio/portfolio/src/feature/node_modules","/home/hkateu/ScalaWork/portfolio/portfolio/src/bower_components","/home/hkateu/ScalaWork/portfolio/portfolio/src/node_modules"]}
+[00:13:23.911] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hkateu/ScalaWork/portfolio/portfolio/src/feature/bower_components","/home/hkateu/ScalaWork/portfolio/portfolio/src/feature/node_modules","/home/hkateu/ScalaWork/portfolio/portfolio/src/bower_components","/home/hkateu/ScalaWork/portfolio/portfolio/src/node_modules"]}
+[00:13:23.912] DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/feature
+[00:13:23.912] DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/feature 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:13:23.914] Elapsed:: 1.5412230007350445ms DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/feature 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:13:23.914] DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/bower_components
+[00:13:23.914] DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:13:23.915] Elapsed:: 0.6973269991576672ms DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:13:23.915] DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/node_modules
+[00:13:23.915] DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:13:23.915] Elapsed:: 0.09904100000858307ms DirectoryWatcher:: Added:: WatchInfo: /home/hkateu/ScalaWork/portfolio/portfolio/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:13:23.915] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[00:13:23.916] Response has been sent.
+[00:13:23.916] No new typings were requested as a result of typings discovery

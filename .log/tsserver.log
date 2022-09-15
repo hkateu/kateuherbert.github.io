@@ -1,0 +1,23 @@
+Info 0    [00:13:01.821] Starting TS Server
+Info 1    [00:13:01.822] Version: 4.8.3
+Info 2    [00:13:01.822] Arguments: /usr/bin/node /home/hkateu/ScalaWork/portfolio/portfolio/node_modules/typescript/lib/tsserver.js --logFile /home/hkateu/ScalaWork/portfolio/portfolio/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/7c24e9398e1e20aeb6e8d775ea9f73bc/tscancellation*
+Info 3    [00:13:01.822] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [00:13:01.822] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [00:13:01.854] Format host information updated
+Info 6    [00:13:01.927] Search path: /home/hkateu/ScalaWork/portfolio/portfolio/src
+Info 7    [00:13:01.928] For info: /home/hkateu/ScalaWork/portfolio/portfolio/src/index.js :: No config files found.
+Info 8    [00:13:01.934] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [00:13:22.908] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 20973.880597997457ms
+Info 10   [00:13:22.908] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [00:13:22.908] 	Files (899)
+
+Info 12   [00:13:22.908] -----------------------------------------------
+Info 13   [00:13:22.957] AutoImportProviderProject: found 6 root files in 6 dependencies in 44.74870600178838 ms
+Info 14   [00:13:22.959] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [00:13:23.873] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 913.5788599997759ms
+Info 16   [00:13:23.873] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [00:13:23.873] 	Files (849)
+
+Info 18   [00:13:23.873] -----------------------------------------------
+Info 19   [00:17:51.454] Search path: /home/hkateu/ScalaWork/portfolio/portfolio/src
+Info 20   [00:17:51.521] For info: /home/hkateu/ScalaWork/portfolio/portfolio/src/App.js :: No config files found.
