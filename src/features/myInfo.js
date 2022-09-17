@@ -22,15 +22,15 @@ const MyInfo = () => {
                 </Grid>
                 <Grid item md={5} xs={12} sx={{ padding: "10px" }}>
                     <Typography sx={{ fontFamily: "Dosis", fontSize: "25px" }}>
-                        I am passionate software software developer, coming from a math backgronund,
+                        I am passionate software developer, coming from a statistics backgronund,
                         i have experience with running alot of data science tasks and creating  models
                         using machine learning, because of this Scala was a natural choice and has since
                         become my new found love.
                         <br />
                         <br />
-                        I have worked at a small startup called Xonal for 2 years now helping build the
+                        I am now working at a small startup called Xonal helping build the
                         furture of audio streaming in Africa, this has taught me alot about product developement,
-                        team work, and building a business. Alot of my work reflects my journey from data science
+                        team work, and building a business. Alot of my work reflects my journey from data science to
                         backend development.
 
                     </Typography>
