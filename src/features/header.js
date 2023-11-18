@@ -21,8 +21,8 @@ const Header = () => {
   const drawerWidth = 240;
 
   const navigationLinks = [
-    { name: "About", href: "" },
     { name: "Profile", href: "" },
+    { name: "Blog", href: "" },
     { name: "Contact", href: "" },
   ];
 
