@@ -53,15 +53,15 @@ const MyInfo = () => {
         </Grid>
         <Grid item md={5} xs={12} sx={{ padding: "10px" }}>
           <Typography sx={{ fontFamily: "Dosis", fontSize: "25px" }}>
-            I am a motivated backend developer capacle of testing, maintenance,
+            I am a motivated backend developer capable of testing, maintenance,
             feature development and deployment of software systems with a keen
-            interest in functional programing, microservices architecture,
-            distributed systems, community developement and opensource.
+            interest in functional programming, microservices architecture,
+            distributed systems, community development and opensource.
           </Typography>
           <Typography sx={{ fontFamily: "Dosis", fontSize: "25px" }}>
-            I started my career as statistician, transitioned to data science,
+            I started my career as a statistician, transitioned to data science,
             and finally fell in love with Scala while learning Apache Spark.
-            I've since been committed to the language and am happy that i
+            I've since been committed to the language and am happy that I
             contribute to the community as best as I can.
           </Typography>
           <br />
