@@ -31,7 +31,7 @@ const MyInfo = () => {
             component="h2"
             sx={{ fontFamily: "DM Serif Display", fontSize: "37px" }}
           >
-            Scala Backend Engineer
+            Technical Writer
           </Typography>
           <Typography sx={{ display: "flex", justifyContent: "space-between" }}>
             <a href="mailto:hkateu@gmail.com" target="_blank">
@@ -53,16 +53,11 @@ const MyInfo = () => {
         </Grid>
         <Grid item md={5} xs={12} sx={{ padding: "10px" }}>
           <Typography sx={{ fontFamily: "Dosis", fontSize: "25px" }}>
-            I am a motivated backend developer capable of testing, maintenance,
-            feature development and deployment of software systems with a keen
-            interest in functional programming, microservices architecture,
-            distributed systems, community development and opensource.
-          </Typography>
-          <Typography sx={{ fontFamily: "Dosis", fontSize: "25px" }}>
-            I started my career as a statistician, transitioned to data science,
-            and finally fell in love with Scala while learning Apache Spark.
-            I've since been committed to the language and am happy that I
-            contribute to the community as best as I can.
+            I started technical writing as a part-time job to supplement my income, 
+            with time I realized many people found value in the content I wrote and it
+             also gave me an in-depth understanding of the software I use. 
+            After years of writing I've grown fond of the profession and familiar with the tools required, 
+            I now do this full-time because of its flexibility, good pay, and enthusiasm to learn and teach.
           </Typography>
           <br />
           <Typography
@@ -125,115 +120,26 @@ const MyInfo = () => {
               Technical Writer
             </Typography>
           </div>
-          <div>
-            <Typography
-              sx={{
-                fontFamily: "Work Sans",
-                color: "gray",
-                fontSize: "12px",
-                marginTop: "20px",
-              }}
-            >
-              August 2021 - September 2022
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Roboto Slab",
-                color: "black",
-                fontSize: "13px",
-              }}
-            >
-              National Water and Sewerage Corporation
-            </Typography>
-            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
-              Business Intelligence Analyst
-            </Typography>
-          </div>
-          <div>
-            <Typography
-              sx={{
-                fontFamily: "Work Sans",
-                color: "gray",
-                fontSize: "12px",
-                marginTop: "20px",
-              }}
-            >
-              August 2017 - August 2021
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Roboto Slab",
-                color: "black",
-                fontSize: "13px",
-              }}
-            >
-              National Water and Sewerage Corporation
-            </Typography>
-            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
-              Data Analyst
-            </Typography>
-          </div>
-          <br />
-          <Typography
-            sx={{
-              fontFamily: "Roboto",
-              fontSize: "13px",
-              color: "purple",
-              marginBottom: "10px",
-              marginTop: "15px",
-            }}
-          >
-            PROJECTS
-            <hr />
-          </Typography>
-          <div>
-            <Typography
-              sx={{
-                fontFamily: "Roboto Slab",
-                color: "black",
-                fontSize: "13px",
-              }}
-            >
-              XONAL
-            </Typography>
-            <Typography
-              sx={{ fontFamily: "Work Sans", color: "gray", fontSize: "12px" }}
-            >
-              <a href="https://www.xonal.live" target="_blank">
-                https://www.xonal.live
-              </a>
-            </Typography>
-            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
-              A radio streaming application that focuses on improved
-              interactions with talk show hosts and guests
-            </Typography>
-            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
-              Stack: Scala, React.Js, Material Design, Typelevel libraries.
-            </Typography>
-            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
-              <ul>
-                <li>
-                  Built with React.Js and Material Design for a responsive
-                  design
-                </li>
-                <li>
-                  Backend i built in Scala using Typelevel libraries like Cats,
-                  Cats-Effect and Circe
-                </li>
-                <li>Intergrated Postgresql with Doobie</li>
-                <li>
-                  Built backend in Tagless Final style for easy extensibilty
-                </li>
-                <li>Deployment done with Docker</li>
-              </ul>
-            </Typography>
-          </div>
         </Grid>
         <Grid item md={3} xs={12} sx={{ padding: "10px" }}>
           <Skills />
-          <Education />
         </Grid>
       </Grid>
+      <Grid
+        container
+        spacing={4}
+        justifyContent="center"
+        sx={{
+          textAlign: "left",
+          display: "flex",
+          fontWeight: "10",
+          padding: "20px",
+        }}
+      >
+        <Grid item md={8} xs={12} sx={{ padding: "10px" }}>
+          <Education />
+        </Grid>
+        </Grid>
       <Grid
         container
         spacing={4}
@@ -257,6 +163,268 @@ const MyInfo = () => {
             ARTICLES
             <hr />
           </Typography>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              October 15th 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              fs2.io
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://fs2.io/#/concurrency-primitives?id=channel"
+                target="_blank"
+              >
+                Fs2 Channel documentation
+              </a> <br/>
+              <a href="https://github.com/typelevel/fs2/pull/3475">PR</a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              August 29th 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              Baeldung
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://www.baeldung.com/scala/nscala-time-date-computation"
+                target="_blank"
+              >
+                Better Date and Time Handling in Scala using nScala-Time
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              May 23rd 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              RockTheJvm
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://rockthejvm.com/articles/websockets-in-scala-part-2-integrating-redis-and-postgresql"
+                target="_blank"
+              >
+                WebSockets in Scala: Part 2 - Intergrating Redis and PostgreSQL
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              May 16th 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              Baeldung
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://www.baeldung.com/scala/refined-types"
+                target="_blank"
+              >
+                Refining Existing Types in Scala With Refined
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              May 5th 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              Baeldung
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://www.baeldung.com/scala/ciris-configuration-loading"
+                target="_blank"
+              >
+                Configuration Loading With Ciris
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              February 19th 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              RockTheJvm
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://rockthejvm.com/articles/websockets-in-scala-part-1-http4s"
+                target="_blank"
+              >
+                WebSockets in Scala: Part 1 - http4s
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              January 29th 2024
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              Baeldung
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://www.baeldung.com/scala/cats-data-validation"
+                target="_blank"
+              >
+                Data Validation With Cats
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              December 18th 2023
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              RockTheJvm
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://rockthejvm.com/articles/udp-with-scala-and-fs2"
+                target="_blank"
+              >
+                UDP with Scala and FS2 Explained
+              </a>
+            </Typography>
+          </div>
+          <div>
+            <Typography
+              sx={{
+                fontFamily: "Work Sans",
+                color: "gray",
+                fontSize: "12px",
+                marginTop: "20px",
+              }}
+            >
+              December 5th 2023
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto Slab",
+                color: "black",
+                fontSize: "13px",
+              }}
+            >
+              Scala Matters
+            </Typography>
+            <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+              <a
+                href="https://www.scalamatters.io/post/sealed-traits-vs-enums-for-adts"
+                target="_blank"
+              >
+                Sealed Traits Vs Enums for ADTs 
+              </a>
+            </Typography>
+          </div>
           <div>
             <Typography
               sx={{
@@ -308,7 +476,7 @@ const MyInfo = () => {
             </Typography>
             <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
               <a
-                href="https://blog.rockthejvm.com/grpc-in-scala-with-fs2-scalapb/"
+                href="https://rockthejvm.com/articles/grpc-in-scala-with-fs2-and-scalapb"
                 target="_blank"
               >
                 gRPC in Scala with Fs2 and ScalaPB.
@@ -395,7 +563,7 @@ const MyInfo = () => {
             </Typography>
             <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
               <a
-                href="https://blog.rockthejvm.com/oauth-authentication-scala-http4s/"
+                href="https://rockthejvm.com/articles/authentication-with-scala-and-http4s-oauth"
                 target="_blank"
               >
                 OAuth Authentication in Scala with Http4s.
@@ -424,7 +592,7 @@ const MyInfo = () => {
             </Typography>
             <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
               <a
-                href="https://blog.rockthejvm.com/otp-authentication-scala-http4s/"
+                href="https://rockthejvm.com/articles/authentication-with-scala-and-http4s-oauth-two-factor-authentication"
                 target="_blank"
               >
                 Two-Factor Authentication in Scala with Http4s.
@@ -482,7 +650,7 @@ const MyInfo = () => {
             </Typography>
             <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
               <a
-                href="https://blog.rockthejvm.com/scala-http4s-authentication/"
+                href="https://rockthejvm.com/articles/authentication-with-scala-and-http4s"
                 target="_blank"
               >
                 HTTP Authentication with Scala and Http4s.
@@ -511,7 +679,7 @@ const MyInfo = () => {
             </Typography>
             <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
               <a
-                href="https://blog.rockthejvm.com/security-in-http4s/"
+                href="https://rockthejvm.com/articles/configuring-http4s-security-handling-cors-and-csrf"
                 target="_blank"
               >
                 Configuring Http4s Security: CORS and CSRF.

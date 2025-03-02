@@ -178,6 +178,31 @@ const Education = () => {
             marginTop: "20px",
           }}
         >
+          November 2020
+        </Typography>
+        <Typography
+          sx={{ fontFamily: "Roboto Slab", color: "black", fontSize: "13px" }}
+        >
+          Udemy
+        </Typography>
+        <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+          <a
+            href="https://www.udemy.com/certificate/UC-cdd6e58d-77da-4755-ac33-76ad10c86f90/"
+            target="_blank"
+          >
+            Google App Script Complete Course to Advanced
+          </a>
+        </Typography>
+      </div>
+      <div>
+        <Typography
+          sx={{
+            fontFamily: "Work Sans",
+            color: "gray",
+            fontSize: "12px",
+            marginTop: "20px",
+          }}
+        >
           February 2020
         </Typography>
         <Typography

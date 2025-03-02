@@ -23,7 +23,13 @@ const Skills = () => {
                     Languages: 
                     </Typography>
                     <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
-                    Scala, Java, Python, SQL, NoSQL
+                    Scala, Java, JavaScript, HTML, Python, SQL, NoSQL
+                    </Typography>
+                    <Typography sx={{ fontFamily: "Roboto", fontSize: "12px", color: "purple", marginBottom: "10px" }}>
+                    Technical Writing Tools: 
+                    </Typography>
+                    <Typography sx={{ fontFamily: "Nunito", color: "black" }}>
+                    Postman, Scaladoc, Javadoc, Jekyll, cURL, Git, Spotlight Editor, Swagger, Open API, JSON, JSON Schema
                     </Typography>
                     <Typography sx={{ fontFamily: "Roboto", fontSize: "12px", color: "purple", marginBottom: "10px" }}>
                     Databases:
